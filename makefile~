@@ -1,0 +1,5 @@
+readme.md:
+	echo "# Guessing number of files in the directory" > readme.md
+	dt=$(date '+%d/%m/%Y %H:%M:%S')
+	echo -n "The date and time at which make was run was $dt " >> readme.md
+	
